@@ -47,6 +47,39 @@ main p{
     color: var(--Desaturated-blue);
     font-weight: 500;
 }
+.button-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 24px 24px
+}
+.button-container > button{
+    height: 40px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    border: none;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+}
+.button-container_payment{
+    background-color: var(--Bright-blue); 
+    color: var(--Very-pale-blue);
+}
+.button-container_cancel{
+    background-color: var(--Very-pale-blue); 
+    color: var(--Desaturated-blue);
+}
+.plan_type-plan :nth-child(1){
+    color: var(--Dark-blue);
+    font-weight: 900;
+}
+.plan :nth-child(3){
+    color: var(--a-color);
+    align-items: center;
+}
+.plan_type-plan :nth-child(2){
+    color: var(--Desaturated-blue);
+    font-weight: 700;
+}
 
 
 
